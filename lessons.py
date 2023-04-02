@@ -49,15 +49,46 @@
 # for el in nums:
 #     el *= 2
 #     print(el)
+#  списки 
+# n = int(input("enter lenght: "))
+# user_list = []
+# i = 0
+# while i < n:
+#     string = "Elem No #" + str(i + 1) + ": "
+#     user_list.append(input(string))
+#     i += 1
+# print(user_list)
 
-n = int(input("enter lenght: "))
-user_list = []
-i = 0
-while i < n:
-    string = "Elem No #" + str(i + 1) + ": "
-    user_list.append(input(string))
-    i += 1
-print(user_list)
+# функции строк
+# word = "utpRoger,btger,oger"
+# # print(word.count("t"))
+# # print(word.upper())
+# # print(word.isupper())
+# # print(word.islower())
+# # print(word.lower())
+# # print(word.find("er"))
+# hobby = word.split(",")
+# 
+# for i in range(len( hobby)):
+#     hobby[i] = hobby[i].capitalize()
+# result = ', '.join(hobby)
+# print(result)
+
+# Индексы и срезы
+# word = 'Football'
+# 
+# print(word[1:-1:2]) начальный сивол:конечный символ: шаг
+lis = [3, "rot", 5.3, "кукушка"]
+print(lis[2:4])
+
+
+
+
+
+
+
+
+
 
 
 
