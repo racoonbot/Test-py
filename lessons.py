@@ -61,13 +61,13 @@
 
 # функции строк
 # word = "utpRoger,btger,oger"
-# # print(word.count("t"))
-# # print(word.upper())
-# # print(word.isupper())
-# # print(word.islower())
-# # print(word.lower())
-# # print(word.find("er"))
-# hobby = word.split(",")
+# print(word.count("t"))
+# print(word.upper())
+# print(word.isupper())
+# print(word.islower())
+# print(word.lower())
+# print(word.find("er"))
+ #hobby = word.split(",")
 # 
 # for i in range(len( hobby)):
 #     hobby[i] = hobby[i].capitalize()
@@ -78,17 +78,35 @@
 # word = 'Football'
 # 
 # print(word[1:-1:2]) начальный сивол:конечный символ: шаг
-lis = [3, "rot", 5.3, "кукушка"]
-print(lis[2:4])
+#lis = [3, "rot", 5.3, "кукушка"]
+#print(lis[1:4])
 
 
 
+# age = int(input())
+# if age <= 11:
+#     print("Child")
+# elif age >= 12 and age <=17:
+#     print("Teen")
+# elif age >= 18 and age <=64:
+#     print("Adult")
 
+#Циклы
+# x = 0
+# while x <=20:
+#     print (x)
+#     x =+ 2
+# x = 0
 
+# while x <= 10:
+#     if x%2==0:
+#         print(x)
+#     x+=1 
 
-
-
-
+x = 5
+while x>0:
+    print(x)
+    x-=1
 
 
 
